@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/shubhamkalsait/on-cdec-b13-jenkins'
+                git 'https://github.com/tejasdev20/jenkins_practice'
             }
         }
         stage('Build') {
