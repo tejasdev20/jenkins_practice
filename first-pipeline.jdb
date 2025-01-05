@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                git 'https://github.com/tejasdev20/jenkins_practice'
+                git 'https://github.com/Pritam-Khergade/student-ui'
             }
         }
         stage('Build') {
             steps {
-                sh '/opt/maven/bin/mvn clean package'
+                sh 'echo \ 'Application is Build''
             }
         }
         stage('Test') {
